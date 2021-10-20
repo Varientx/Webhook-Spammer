@@ -1,5 +1,5 @@
 """
--> Made by Varient#0001.
+-> Made by Varient#3680.
 -> Please give credit :).
 -> Also, join discord.gg/skids <- my new server.
 """
