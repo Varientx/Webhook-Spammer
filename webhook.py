@@ -1,7 +1,6 @@
 """
--> Made by Varient#3680.
--> Please give credit :).
--> Also, join discord.gg/skids <- my new server.
+-> Made by Varient#6788.
+-> Please give credit :)
 """
 import os, sys, aiohttp, asyncio, time
 
