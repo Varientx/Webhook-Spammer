@@ -1,5 +1,5 @@
 """
--> Made by Varient#6788.
+-> Made by Krypton#6788.
 -> Please give credit :)
 """
 import os, sys, aiohttp, asyncio, time
