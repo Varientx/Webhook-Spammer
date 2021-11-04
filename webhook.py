@@ -21,7 +21,7 @@ class WebhookSpammer:
                   sys.stdout.write(f"-> Sent webhook to channel with {amount} tasks in its payload.\n\n")
               else:
                   json = await s.json()
-                  sys.stdout.write(f"-> Error sending webhook with {amount} tasks in its payload.\n-> Message: {json['message']}\n-> Retry After: 0.{json['retry_after']}ms.\n\n")
+                  sys.stdout.write(f"-> Error sending webhook with {amount} tasks in its payload.\n-> Message: {json['message']}\n-> Retry After: {json['retry_after']}\n\n")
   
     async def start(self):
         self.clear()
